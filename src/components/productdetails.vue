@@ -1,11 +1,13 @@
 <template>
-    <h4>hello product details page</h4>
+  <div id="productdetails">
+   <h4>product details</h4>
+  </div>
 </template>
 
 <script>
-export default {
+ export default {
   name: 'productdetails',
-data() {
+  data() {
     return {
       products:[
         {id:1, name:'product1', msg: oatmeal, img:'../assets/product8.jpg'},
@@ -20,5 +22,5 @@ data() {
     const id = parseInt(this.$route.params.id)
     this.product = this.products.find(p => p.id === id)
   }
-}
+ }
 </script>
