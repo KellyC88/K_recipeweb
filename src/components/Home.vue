@@ -7,22 +7,23 @@
        <div class="brand">
         <router-link class="brand_name" :to="{ name: 'Home' }">Wabisabi</router-link>
        </div>
-        <div class="nav_list">
-           <a class="list" href="#category">Category</a>
-          <!-- <a  class="categorylist" href="#" onclick="toggledropdown()">Category</a>
-              <select name="" id="category">
-                <option value="Oatmeal">Oatmeal</option>
-                <option value="Breakfast">Breakfast</option>
-                <option value="High Protein">High Protein</option>
-                <option value="Dessert">Dessert</option>
-                <option value="Lunch">Lunch</option>
-                <option value="Dinner">Dinner</option>
-              </select> -->
-          <router-link class="list" :to="{ name: 'Subscribe' }">Subscribe</router-link>
-          <!-- <a class="list" href="#subscribe">Subscribe</a> -->
-          <a class="list" href="#contact">Contact</a>
-          <router-link class="list" :to="{ name: 'LogIn' }">LogIn</router-link>
+      <div class="nav_list">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Oatmeal</a></li>
+            <li><a class="dropdown-item" href="#">Breakfast</a></li>
+            <li><a class="dropdown-item" href="#">High Protein</a></li>
+            <li><a class="dropdown-item" href="#">Sourdough</a></li>
+          </ul>
         </div>
+        <router-link class="list" :to="{ name: 'Subscribe' }">Subscribe</router-link>
+        <a class="list" href="#subscribe">Subscribe</a>
+        <a class="list" href="#contact">Contact</a>
+        <router-link class="list" :to="{ name: 'LogIn' }">LogIn</router-link>
+      </div>
         <div class="searchbox">
           <input class="search_input" type="text" placeholder="search" aria-label="Search_input">
           <button class="search_btn" aria-label="SS">
@@ -41,25 +42,25 @@
   <div class="product_set1" ref="productSet1">
     <h3 class="topic">Most Popular</h3>
     <div class="box">
-      <router-link class="img_container" id="product1" :to="{name:'ProductDetails', params:{id:1}}">
+      <router-link class="img_container" :to="{name:'ProductDetails', params:{id:1}}">
         <div class="img_overlay">
           <div class="img_text">OATMEAL</div>
         </div>
         <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
       </router-link>
-      <router-link class="img_container" id="product2" :to="{name:'ProductDetails', params:{id:2}}">
+      <router-link class="img_container" :to="{name:'ProductDetails', params:{id:2}}">
         <div class="img_overlay">
           <div class="img_text">SOURDOUGH</div>
         </div>
         <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
       </router-link>
-      <router-link class="img_container" id="product3" :to="{name:'ProductDetails', params:{id:3}}">
+      <router-link class="img_container"  :to="{name:'ProductDetails', params:{id:3}}">
         <div class="img_overlay"> 
           <div class="img_text">SALAD</div>
         </div>
         <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
       </router-link>
-      <router-link class="img_container" id="product4" :to="{name:'ProductDetails', params:{id:4}}">
+      <router-link class="img_container" :to="{name:'ProductDetails', params:{id:4}}">
         <div class="img_overlay">
           <div class="img_text">COOKIE</div>
         </div>
