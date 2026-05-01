@@ -46,25 +46,25 @@
         <div class="img_overlay">
           <div class="img_text">OATMEAL</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </router-link>
       <router-link class="img_container" :to="{name:'ProductDetails', params:{id:2}}">
         <div class="img_overlay">
           <div class="img_text">SOURDOUGH</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </router-link>
       <router-link class="img_container"  :to="{name:'ProductDetails', params:{id:3}}">
         <div class="img_overlay"> 
           <div class="img_text">SALAD</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </router-link>
       <router-link class="img_container" :to="{name:'ProductDetails', params:{id:4}}">
         <div class="img_overlay">
           <div class="img_text">COOKIE</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </router-link>
     </div>
   </div>
@@ -78,24 +78,24 @@
         <div class="img_overlay">
           <div class="img_text">CAKE</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div><div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div>
     </div>
   </div>
@@ -106,24 +106,24 @@
         <div class="img_overlay">
           <div class="img_text">CAKE</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div><div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.JPG"></a>
       </div>
     </div>
   </div>
