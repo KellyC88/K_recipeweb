@@ -1,10 +1,9 @@
 <template>
-  import 'SCSS' from './home.scss'
   <div class="Home">
     <div class="first_layer">
       <div class="nav_bar">
         <!-- first layer -->
-        <img class="logo" src="../assets/wabisabi_logo.png" alt="">
+        <img class="logo" src="@/assets/wabisabi_logo.png" alt="">
        <div class="brand">
         <router-link class="brand_name" :to="{ name: 'Home' }">Wabisabi</router-link>
        </div>
@@ -36,7 +35,7 @@
       </div>
     <div class="brand_concept">
       <h4 class="concept">Brand concept / Brand concept / Brand concept/Brand concept/ Brand concept/</h4>
-      <img class="brand_bgimg" src="../assets/plant.jpg" alt="">
+      <img class="brand_bgimg" src="@/assets/plant.jpg" alt="">
     </div>
     
   </div>
@@ -47,25 +46,25 @@
         <div class="img_overlay">
           <div class="img_text">OATMEAL</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </router-link>
       <router-link class="img_container" :to="{name:'ProductDetails', params:{id:2}}">
         <div class="img_overlay">
           <div class="img_text">SOURDOUGH</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </router-link>
       <router-link class="img_container"  :to="{name:'ProductDetails', params:{id:3}}">
         <div class="img_overlay"> 
           <div class="img_text">SALAD</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </router-link>
       <router-link class="img_container" :to="{name:'ProductDetails', params:{id:4}}">
         <div class="img_overlay">
           <div class="img_text">COOKIE</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </router-link>
     </div>
   </div>
@@ -79,24 +78,24 @@
         <div class="img_overlay">
           <div class="img_text">CAKE</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div><div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div>
     </div>
   </div>
@@ -107,24 +106,24 @@
         <div class="img_overlay">
           <div class="img_text">CAKE</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div><div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div>
       <div class="img_container">
         <div class="img_overlay">
           <div class="img_text">NAME</div>
         </div>
-        <a href="#!" ><img class="img" src="../assets/product8.jpg"></a>
+        <a href="#!" ><img class="img" src="@/assets/product8.jpg"></a>
       </div>
     </div>
   </div>
