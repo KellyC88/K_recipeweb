@@ -140,7 +140,7 @@ $winered: #49110b;
     position: relative;
     z-index: 10;
     height: auto;
-    width: fit-content;
+    width: 120px;
     border: none;
     color: $bonewhite;
     padding: 0px 14px;
@@ -156,27 +156,41 @@ $winered: #49110b;
         display: none;
         position: absolute;
         top: 100%;
-        left: 0;
-        background-color: $bonewhite;
+        left: 12px;
+        text-decoration: none;
+        background-color: $warmwhite;
         border: 1px solid rgba($bonewhite, 0.4);
-        border-radius: 4px;
-        padding: 8px 0;
+        padding: 4px 0;
+        margin: 4px 0;
+        list-style: none;
         z-index: 10;
-        .dropdown-item {
+        text-align: center;
+
+        li {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+
+        li > a {
           display: block;
-          padding: 0px 16px;
+          padding: 7px 7px;
           color: $olivebrown;
           text-decoration: none;
-          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 14px;
-          &:hover {
-            background-color: $warmbeige;
-            color: $earthbrown;}
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 16px;
+          transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        li > a:hover {
+          background-color: $warmbeige;
+          color: $earthbrown;
         }
       }
       &.open .dropdown-menu {
         display: block;
       }
+      
     }
 
 .searchbox{
