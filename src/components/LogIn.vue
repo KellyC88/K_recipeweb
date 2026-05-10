@@ -10,7 +10,16 @@
         <router-link class="brand_name" :to="{ name: 'Home' }">Wabisabi</router-link>
        </div>
         <div class="nav_list">
-        <a class="list" href="#category">Category</a>
+        <div class="dropdown" :class="{ open: dropdownOpen }" v-click-outside="closeDropdown">
+            <button class="dropdown-toggle" @click="dropdownOpen = !dropdownOpen">Category
+              <span class="caret" :class="{ open: dropdownOpen }">&#9662;</span>
+            </button>
+              <ul class="dropdown-menu">
+                <li v-for="cat in categories" :key="cat">
+                  <a href="#" @click.prevent="selectCategory(cat)">{{ cat }}</a>
+                </li>
+              </ul>
+          </div>
         <router-link class="list" :to="{ name: 'Subscribe' }">Subscribe</router-link>
         <!-- <a class="list" href="#subscribe">Subscribe</a> -->
         <a class="list" href="#contact">Contact</a>
@@ -56,7 +65,15 @@ export default {
   data() {
     return {
       email: '',
-      password: ''
+      password: '',
+      dropdownOpen: false,
+      selectedCategory: null,
+      categories: [
+        'Oatmeal',
+        'Breakfast',
+        'High Protein',
+        'Sourdough',
+      ],
     }
   }
 }

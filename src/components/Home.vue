@@ -211,16 +211,3 @@ export default {
 }
 </script>
 
-<!-- <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
-$bonewhite: #f4efe6;
-$warmwhite: #e7dfcf;
-$warmbeige: #c4b39a;
-$sand: #cec1ab;
-$olivebrown:#92816c;
-$earthbrown: #8a7356;
-$mocha: #5a4d41;
-$espresso: #5b4c3a;
-$charcoal: #191a1e;
-$winered: #49110b;
-</style> -->
