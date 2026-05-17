@@ -4,6 +4,7 @@ import LogIn from '../components/LogIn.vue'
 import Subscribe from '../components/Subscribe.vue'
 import ProductDetails from '../components/productdetails.vue'
 import '../../SCSS/home.scss'
+import '../../SCSS/productdetails.scss'
 
 const routes = [
     { path: '/', name: 'Home', component: Home },
