@@ -150,7 +150,9 @@ $winered: #49110b;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     &:hover {
-      font-weight: 500;}
+      font-weight: 500;
+      color: $espresso;
+    }
   }
       .dropdown-menu {
         display: none;
